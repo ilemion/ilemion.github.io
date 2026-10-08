@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="个人博客 —— 记录学习轨迹与作品集合" />
+  <title>个人博客 · 学习与作品</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- 导航 -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">我的博客</a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">项目经历</a>
+        <a href="#learning">学习日志</a>
+        <a href="#projects">项目</a>
+        <a href="#games">游戏</a>
+        <a href="#demo">演示</a>
+        <a href="#contact">联系</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="打开菜单">☰</button>
+    </div>
+  </header>
+
+  <!-- 首页 -->
+  <section class="hero" id="home">
+    <div class="container">
+      <p class="hero-greeting">你好，我是王李嘉航</p>
+      <h1 class="hero-title">记录学习，分享作品</h1>
+      <p class="hero-subtitle">北京理工大学软件工程本科生 · 对软硬结合领域有浓厚兴趣，关注机器人感知算法。</p>
+      <div class="hero-actions">
+        <a href="#learning" class="btn">看日志</a>
+        <a href="#projects" class="btn btn-plain">看作品</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 关于我 -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title">项目经历</h2>
+
+      <div class="about-line"><span class="about-time">2025.11 - 2026.10</span> 大学生创新创业项目 · 开发工程师 —— 基于 HoloLens 的空间锚点交互性软件开发</div>
+      <div class="about-line"><span class="about-time">2024.11 - 2025.10</span> 大学生创新创业项目 · 开发工程师 —— 基于 HoloLens 与 MRTK 开发虚拟仿真项目与联机游戏</div>
+    </div>
+  </section>
+
+  <!-- 学习日志 -->
+  <section class="section" id="learning">
+    <div class="container">
+      <h2 class="section-title">学习日志</h2>
+
+      <div class="log-filter">
+        <button class="filter-btn active" data-filter="all">全部</button>
+        <button class="filter-btn" data-filter="编程">编程</button>
+        <button class="filter-btn" data-filter="算法">算法</button>
+        <button class="filter-btn" data-filter="工具">工具</button>
+        <button class="filter-btn" data-filter="读书笔记">读书笔记</button>
+      </div>
+
+      <div id="logList">
+        <!-- JS 动态渲染 -->
+      </div>
+    </div>
+  </section>
+
+  <!-- 项目 -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section-title">项目作品</h2>
+
+      <div class="project-list" id="projectList">
+        <!-- JS 动态渲染 -->
+      </div>
+
+      <div class="projects-more">
+        <a href="https://github.com/ilemion?tab=repositories" target="_blank" rel="noopener">GitHub 主页 →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 游戏 -->
+  <section class="section" id="games">
+    <div class="container">
+      <h2 class="section-title">个人游戏</h2>
+
+      <div class="game-list" id="gameList">
+        <!-- JS 动态渲染 -->
+      </div>
+    </div>
+  </section>
+
+  <!-- 游戏演示视频 -->
+  <section class="section" id="demo">
+    <div class="container">
+      <h2 class="section-title">游戏演示</h2>
+
+      <!-- 替换 bvid=BVxxxx 为你视频的 BV 号（B 站视频页分享 -> 嵌入代码里可找到） -->
+      <div class="video-wrap">
+        <iframe
+          src="https://player.bilibili.com/player.html?bvid=BVxxxx&page=1&autoplay=0&danmaku=0"
+          scrolling="no" border="0" frameborder="no" framespacing="0"
+          allowfullscreen="true">
+        </iframe>
+      </div>
+      <p class="video-note">Call of Majesty 王权的呼唤 · 游戏演示视频（B 站）</p>
+    </div>
+  </section>
+
+  <!-- 联系 -->
+  <section class="section" id="contact">
+    <div class="container">
+      <h2 class="section-title">联系方式</h2>
+      <div class="contact-list">
+        <a href="https://github.com/ilemion" target="_blank" rel="noopener">
+          <span class="contact-label">GitHub</span>@ilemion
+        </a>
+        <a href="mailto:1120233162@bit.edu.cn">
+          <span class="contact-label">Email</span>1120233162@bit.edu.cn
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 页脚 -->
+  <footer class="footer">
+    <div class="container">
+      © <span id="year"></span> 我的博客 · 由 HTML / CSS / JavaScript 构建
+    </div>
+  </footer>
+
+  <!-- 数据文件：修改这里更新内容 -->
+  <script src="js/data.js"></script>
+  <!-- 主脚本：一般无需修改 -->
+  <script src="js/main.js"></script>
+</body>
+</html>
