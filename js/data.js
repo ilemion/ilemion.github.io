@@ -7,6 +7,19 @@
 // 每条记录：date 日期 / title 标题 / category 分类 / content 内容（支持 HTML）
 const learningLogs = [
   {
+    date: "2026-11-17",
+    title: "AIQMS · 版本更新与评测进展",
+    category: "编程",
+    content: `
+      实验版本管理工具更新至 <strong>2.4.6</strong>，macOS 与 Windows 安装包已上传。
+      <ul>
+        <li>新增网页依据评分、基础项通过门槛及逐项评分细则，补齐历史实验评分明细。</li>
+        <li>单文档生成复测完成并归档，部分证据与模板仍待核验。</li>
+        <li>经验库页面完成审查，待修复问题已明确。</li>
+      </ul>
+    `
+  },
+  {
     date: "2026-10-08",
     title: "搭建个人博客页面",
     category: "编程",
