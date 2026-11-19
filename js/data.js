@@ -7,6 +7,19 @@
 // 每条记录：date 日期 / title 标题 / category 分类 / content 内容（支持 HTML）
 const learningLogs = [
   {
+    date: "2026-11-18",
+    title: "AIQMS · 检索升级与评测归档",
+    category: "编程",
+    content: `
+      经验库检索与新版评分规则已接入正式评测。
+      <ul>
+        <li>软件报告与生物相容性报告的生成结果及评分均已归档。</li>
+        <li>生物相容性报告暂评 <strong>70.50 分</strong>，较上一轮高 7.25 分，评分覆盖率为 90%。</li>
+        <li>软件报告已生成，尚未通过结案校验；部分证据与模板仍待复核。</li>
+      </ul>
+    `
+  },
+  {
     date: "2026-11-17",
     title: "AIQMS · 版本更新与评测进展",
     category: "编程",
