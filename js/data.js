@@ -7,6 +7,17 @@
 // 每条记录：date 日期 / title 标题 / category 分类 / content 内容（支持 HTML）
 const learningLogs = [
   {
+    date: "2026-11-19",
+    title: "AIQMS · 让评测结果有迹可循",
+    category: "编程",
+    content: `
+      测试评分可以自动录入，五个环境的十项测试结果已归档。
+      <ul>
+        <li>完成一轮逐项复测，明确了仍需补齐的证据，以及文档中还没对齐的地方。</li>
+      </ul>
+    `
+  },
+  {
     date: "2026-11-18",
     title: "AIQMS · 检索升级与评测归档",
     category: "编程",
