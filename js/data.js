@@ -7,6 +7,18 @@
 // 每条记录：date 日期 / title 标题 / category 分类 / content 内容（支持 HTML）
 const learningLogs = [
   {
+    date: "2026-11-20",
+    title: "AIQMS · 逐点评分与问题追溯",
+    category: "编程",
+    content: `
+      实验工作台更新至 2.4.8，可查看 35 份通用和 14 份专项评分表。
+      <ul>
+        <li>三份软件研究报告完成逐点评分并归档，40 个扣分项均追溯到对应的取证、写作或校验环节。</li>
+        <li>第四份报告已生成，但评分尚未完成。</li>
+      </ul>
+    `
+  },
+  {
     date: "2026-11-19",
     title: "AIQMS · 让评测结果有迹可循",
     category: "编程",
