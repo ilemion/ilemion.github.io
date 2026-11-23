@@ -7,6 +7,18 @@
 // 每条记录：date 日期 / title 标题 / category 分类 / content 内容（支持 HTML）
 const learningLogs = [
   {
+    date: "2026-11-23",
+    title: "AIQMS · 批量评测与资料核查",
+    category: "编程",
+    content: `
+      新增批量评测流程，完成并归档五份软件研究报告的复评。
+      <ul>
+        <li>核查并修订了 20 套合成测试资料，最终版已通过文件级一致性检查，尚未用它复跑报告。</li>
+        <li>同日完成两篇评分研究的中文译稿。</li>
+      </ul>
+    `
+  },
+  {
     date: "2026-11-20",
     title: "AIQMS · 逐点评分与问题追溯",
     category: "编程",
