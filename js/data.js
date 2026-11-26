@@ -7,6 +7,18 @@
 // 每条记录：date 日期 / title 标题 / category 分类 / content 内容（支持 HTML）
 const learningLogs = [
   {
+    date: "2026-11-26",
+    title: "AIQMS · 锁定申报目录",
+    category: "编程",
+    content: `
+      锁定申报目录后，同一测试案例两次复跑均在原目录内结束，未跨目录生成。
+      <ul>
+        <li>本机正式接口另完成并归档 3 案：1 案成稿但误选目录，2 案按规则跳过。</li>
+        <li>完成本地 MCP 直跑对照，接入单文档迭代入口。</li>
+      </ul>
+    `
+  },
+  {
     date: "2026-11-25",
     title: "AIQMS · 批量评测与 Hearthly 改版",
     category: "编程",
